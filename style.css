@@ -1,0 +1,129 @@
+@import url(style-guide.md);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  border: 10px double hsl(0, 100%, 74%);
+  padding: 35px;
+  background: hsl(0, 100%, 74%);
+  background-clip: content-box;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+}
+main {
+  background: url(bg-intro-desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat center;
+}
+.left-container h1 {
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: 700;
+}
+.left-container p {
+  color: aliceblue;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  text-align: left;
+}
+.right-container {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px;
+  gap: 15px;
+}
+.right-container .top button {
+  background-color: hsl(248, 32%, 49%);
+  color: hsl(252, 10%, 90%);
+  border-radius: 5px;
+  border: 2px darkblue;
+  font-size: 10px;
+  padding: 14px 40px;
+  width: 100%;
+  margin-bottom: 25;
+}
+.top .span {
+  color: hsl(248, 32%, 49%);
+}
+.right-container .bottom {
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+
+.bottom form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+form .user-details .input-box {
+  width: 100%;
+}
+.user-details .input-box .details {
+  display: block;
+  font-weight: 500;
+  margin: 10px;
+}
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 16px;
+}
+form .button {
+  height: 45px;
+  margin: 15px 0;
+  width: 100%;
+}
+form .button input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  background-color: hsl(154, 59%, 51%);
+  color: hsl(150, 21%, 93%);
+  border-radius: 5px;
+  border: 2px rgb(191, 216, 191);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 15px 40px;
+}
+form p {
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 10px;
+}
+.terms span {
+  color: rgb(220, 90, 90);
+}
+@media (max-width: 375px) {
+
+}
+main{max-width: 100%;
+    
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+}
